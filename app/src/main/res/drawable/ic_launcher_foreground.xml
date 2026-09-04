@@ -1,0 +1,134 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Safe zone: 66dp diameter circle centered at (54, 54) -->
+    <!-- TukTuk24 Official Brand Emblem -->
+    <group
+        android:translateX="23"
+        android:translateY="35"
+        android:scaleX="0.48"
+        android:scaleY="0.48">
+
+        <!-- 1. TUK TUK VEHICLE ICON -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 72,16
+                              L 34,16
+                              C 28,16 23,20 21,26
+                              L 17,54
+                              C 16,57 13,60 10,63
+                              L 10,76
+                              C 10,79 13,81 16,81
+                              L 21,81" />
+
+        <!-- Rear Pillar -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 60,32 L 62,81" />
+
+        <!-- Lower Chassis -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 43,81 L 72,81" />
+
+        <!-- Interior Handlebar -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 21,60 C 24,57 28,58 31,61" />
+
+        <!-- Front Wheel -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="5"
+            android:fillColor="#00000000"
+            android:pathData="M 32,81
+                              A 10,10 0 1,0 32,61
+                              A 10,10 0 1,0 32,81 Z" />
+
+        <!-- Wheel Hub Center -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 32,74
+                              A 3.5,3.5 0 1,0 32,67
+                              A 3.5,3.5 0 1,0 32,74 Z" />
+
+        <!-- 2. "TUK" (TOP LINE - WHITE) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 82,16 H 108 V 24 H 99 V 48 H 91 V 24 H 82 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 112,16 H 120 V 40 C 120,43 122,44 125,44 C 128,44 130,43 130,40 V 16 H 138 V 40 C 138,47 133,50 125,50 C 117,50 112,47 112,40 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 142,16 H 150 V 30 L 160,16 H 170 L 157,33 L 171,48 H 160 L 150,36 V 48 H 142 Z" />
+
+        <!-- 3. "TUK" (BOTTOM LINE - WHITE) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 82,53 H 108 V 61 H 99 V 85 H 91 V 61 H 82 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 112,53 H 120 V 77 C 120,80 122,81 125,81 C 128,81 130,80 130,77 V 53 H 138 V 77 C 138,84 133,87 125,87 C 117,87 112,84 112,77 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 142,53 H 150 V 67 L 160,53 H 170 L 157,70 L 171,85 H 160 L 150,73 V 85 H 142 Z" />
+
+        <!-- 4. "24" (GOLD) -->
+        <path
+            android:fillColor="#FFBA08"
+            android:pathData="M 179,28
+                              C 179,19 187,14 198,14
+                              C 209,14 216,20 216,29
+                              C 216,38 209,46 198,56
+                              L 191,63
+                              L 216,63
+                              V 85
+                              H 179
+                              V 72
+                              L 198,50
+                              C 204,44 207,38 207,30
+                              C 207,24 203,22 198,22
+                              C 192,22 188,25 188,30
+                              Z" />
+
+        <path
+            android:fillColor="#FFBA08"
+            android:pathData="M 235,16
+                              L 220,58
+                              V 65
+                              H 237
+                              V 85
+                              H 245
+                              V 65
+                              H 252
+                              V 54
+                              H 245
+                              V 16
+                              H 235
+                              Z
+                              M 235,33
+                              V 54
+                              H 227
+                              Z" />
+    </group>
+</vector>

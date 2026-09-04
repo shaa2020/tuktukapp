@@ -1,0 +1,6 @@
+{
+  "name": "TukTuk24",
+  "description": "Premium travel booking platform for private electric tuk-tuk tours and local experiences in Lisbon, Sintra, Cascais, Fátima, and Nazaré.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
